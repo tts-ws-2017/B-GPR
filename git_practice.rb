@@ -18,6 +18,7 @@ class Thequestion
     
     def challenge_answer
         puts "But what is the answer for 42?"
+	end
 end
 
 ultimate = Thequestion.new("life", "the universe", "everything")
