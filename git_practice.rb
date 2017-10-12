@@ -15,6 +15,9 @@ class Thequestion
 	def print_answer
         puts "42"
     end
+    
+    def challenge_answer
+        puts "But what is the answer for 42?"
 end
 
 ultimate = Thequestion.new("life", "the universe", "everything")
@@ -22,3 +25,5 @@ ultimate = Thequestion.new("life", "the universe", "everything")
 puts ultimate.print_question
 
 puts ultimate.print_answer
+    
+puts ultimate.challenge_answer
